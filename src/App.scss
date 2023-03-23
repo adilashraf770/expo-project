@@ -1,0 +1,21 @@
+// Bootsrtap Css
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Header Css
+@import './sass/header';
+
+#root{
+    overflow-x: hidden;
+    display:  flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1 0 auto;
+}
+.card{
+    border:  none !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    // box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
